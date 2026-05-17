@@ -271,19 +271,18 @@ To explore this database on your local machine, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YourUsername/bookstore-db-project.git](https://github.com/YourUsername/bookstore-db-project.git)
+   git clone https://github.com/LaxmanRoy14/bookstore-db-project.git
    cd bookstore-db-project/database
    ```
 2. **Launch MySQL CLI or MySQL Workbench:**
    Log in to your local MySQL server as a user with database creation privileges.
-   ```bash
+
+```bash
    mysql -u root -p
+```
 
-   ```
-
-````
 3. **Execute the initial setup script:**
    Source the SQL file to automatically create the database, build the tables, and insert the seed data.
    ```sql
    SOURCE 01_init_db.sql;
-````
+   ```
